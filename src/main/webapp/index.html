@@ -1,20 +1,80 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
 <script src="/webjars/jquery/jquery.min.js"></script>
 <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
-<title>WebJars Demo</title>
-<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<title>Spring Boot UI ++</title>
 </head>
 <body>
-	WebJars Demo v2.
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">{ ZikLabs }</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProgram"
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Program </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownProgram">
+						<h6 class="dropdown-header">Program MenuGroup-1</h6>
+						<a class="dropdown-item" href="#">&emsp; Program MenuItem-1</a>
+						<a class="dropdown-item" href="#">&emsp; Program MenuItem-2</a>
+						<div class="dropdown-divider"></div>
+						<h6 class="dropdown-header">Program MenuGroup-2</h6>
+						<a class="dropdown-item" href="#">&emsp; Program MenuItem-3</a>
+					</div></li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMember"
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Member </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMember">
+						<h6 class="dropdown-header">Member MenuGroup-1</h6>
+						<a class="dropdown-item" href="#">&emsp; Member MenuItem-1</a>
+						<a class="dropdown-item" href="#">&emsp; Member MenuItem-2</a>
+						<div class="dropdown-divider"></div>
+						<h6 class="dropdown-header">Member MenuGroup-2</h6>
+						<a class="dropdown-item" href="#">&emsp; Member MenuItem-3</a>
+					</div></li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProvider"
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Provider </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownProvider">
+						<h6 class="dropdown-header">Provider MenuGroup-1</h6>
+						<a class="dropdown-item" href="#">&emsp; Provider MenuItem-1</a>
+						<a class="dropdown-item" href="#">&emsp; Provider MenuItem-2</a>
+						<div class="dropdown-divider"></div>
+						<h6 class="dropdown-header">Provider MenuGroup-2</h6>
+						<a class="dropdown-item" href="#">&emsp; Provider MenuItem-3</a>
+					</div></li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownClaims"
+						role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Claims </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownClaims">
+						<h6 class="dropdown-header">Claims MenuGroup-1</h6>
+						<a class="dropdown-item" href="#">&emsp; Claims MenuItem-1</a>
+						<a class="dropdown-item" href="#">&emsp; Claims MenuItem-2</a>
+						<div class="dropdown-divider"></div>
+						<h6 class="dropdown-header">Claims MenuGroup-2</h6>
+						<a class="dropdown-item" href="#">&emsp; Claims MenuItem-3</a>
+					</div></li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<nav class="navbar navbar-light bg-light">
+		<span class="navbar-brand h1">Hello, world!</span>
+	</nav>
+	<h1></h1>
 	<div class="container">
 		<br />
-		<div class="alert alert-success">
-			<a href="#" class="close" data-dismiss="alert" aria-label="close">×</a> <strong>Success!</strong> It is working as we
-			expected.
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">Ã—</a>
+			<strong>Success!</strong> It is working as we expected.
 		</div>
+		<div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
 	</div>
 </body>
 </html>
